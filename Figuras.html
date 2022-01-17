@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geometricas</title>
+</head>
+<body>
+    <header>
+        <p>Prueba Practica</p>
+    </header>
+    <h1>
+        Estas sera Calcular perimetro
+    </h1>
+    <section>
+        <h2>Calculando</h2>
+        <form>
+            <label for="InputCuadrado">
+                Escribe el lado del cuadrado
+            </label><input id="InputCuadrado" type="number"/>
+            <button type="button" onClick="calcularPerimetro()">Calcular Perimetro</button>
+
+        </form>
+    </section>
+
+    <section>
+        <h1>Esto sera descuentos</h1>
+        <h2>Calculando</h2>
+        <form>
+            <p>
+                <label>
+                    Escribe el costo del articulo
+                </label><input id="InputCosto" type="number" />
+            </p>
+
+            <p>
+                <label>
+                    Escribe el descuento
+                </label><input id="InputDescuento" type="number"/>
+            </p>
+            <button type="button" onClick="CalcularDescuento()">Calcular Descuento</button>
+            <p id="ResultP"></p>
+        </form>
+    </section>
+    <script src="./FigurasGeometricas.js"></script>
+</body>
+</html>
